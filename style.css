@@ -4,6 +4,15 @@
 #mission{
     text-align: center;
 }
+.color{
+    color: rebeccapurple;
+}
+.border{
+    border-left: 4px solid;
+    padding-left: 4px;
+    border-radius: 5px;
+    border-color: rebeccapurple;
+}
 
 .first-container{
     display: flex;
@@ -16,7 +25,7 @@
 }
 .button{
     padding: 10px 15px;
-    background-color: brown;
+    background-image: linear-gradient(purple,black);
     border: 1px solid;
     border-radius: 10px;
     text-decoration: none;
@@ -28,10 +37,29 @@
 .par-item{
     width: 50%;
     padding: 10px;
+    margin: 5px;
+    
+}
+.box{
+    border:  solid;
+    border-image: linear-gradient(#f6b73c, #4d9f0c); 
+    border-image-slice: 1;  
+    
+}
+#box-bg{
+    background-color: #DFD3C3;
+}
+#box-bg1{
+    background-color: #C7B198;
 }
 .par-item img{
     width: 40%;
 }
 footer{
     text-align: center;
+    background-color: black;
+    padding: 14px;
+}
+.ft-style{
+    color: white;
 }
