@@ -8,7 +8,7 @@ body h1{
 p{
     color: #303841;
 }
-.first-layer{
+.layer{
     margin-bottom: 100px;
 }
 #mission{
@@ -23,7 +23,7 @@ p{
     border-radius: 5px;
     border-color: #EA907A;
 }
-.first-container{
+.container{
     display: flex;
     margin: 5%;
 }
