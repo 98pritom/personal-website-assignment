@@ -2,6 +2,12 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+body h1{
+    font-size: 36px;
+}
+p{
+    color: #303841;
+}
 .first-layer{
     margin-bottom: 100px;
 }
@@ -23,6 +29,7 @@ body{
 }
 .focus-image{
     width: 50%;
+    padding-left: 5%;
 }
 .focus-image img{
     width: 80%;
